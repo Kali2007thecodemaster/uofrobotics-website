@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/uofrobotics-website/static/css/main.3c27d6b3.css",
+    "main.js": "/uofrobotics-website/static/js/main.0dad9894.js",
+    "index.html": "/uofrobotics-website/index.html",
+    "main.3c27d6b3.css.map": "/uofrobotics-website/static/css/main.3c27d6b3.css.map",
+    "main.0dad9894.js.map": "/uofrobotics-website/static/js/main.0dad9894.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c27d6b3.css",
+    "static/js/main.0dad9894.js"
+  ]
+}

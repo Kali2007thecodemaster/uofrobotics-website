@@ -1,0 +1,9 @@
+{
+  "short_name": "UofRobotics",
+  "name": "UofRobotics — University of Regina Robotics Club",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff"
+}

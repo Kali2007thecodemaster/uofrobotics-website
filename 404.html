@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>UofRobotics</title>
+<script>
+/* Single-page-app redirect for GitHub Pages. Rewrites /club into /?/club so that
+   Pages serves index.html, which puts the path back before React Router reads it.
+   Set pathSegmentsToKeep to 1 when the site lives at username.github.io/<repo>/,
+   and leave it at 0 for a custom domain or a username.github.io user site.
+   See the README, "Deploying", before you change it. */
+(function(l){
+  var pathSegmentsToKeep = 1;
+  l.replace(
+    l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+    l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
+    l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+    (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') + l.hash
+  );
+}(window.location));
+</script>
+</head>
+<body></body>
+</html>
